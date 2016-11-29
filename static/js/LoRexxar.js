@@ -1,0 +1,15 @@
+$("div.head").click(function(){
+		window.location.href='./profile.php';
+	})
+$(document).ready(function(){
+		$("div.warn").fadeIn("slow");
+	});
+$("div.warn").click(function(){
+		$("div.warn").fadeOut("slow");
+	});
+$("input.register").click(function(){
+	window.location.href='./register.php';
+});
+$("input.back").click(function(){
+	window.location.href='./user.php';
+});
